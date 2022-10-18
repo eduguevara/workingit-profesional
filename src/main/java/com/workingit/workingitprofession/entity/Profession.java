@@ -20,7 +20,6 @@ public class Profession {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	int id;
-	int userId;
 	String description;
 
 }
